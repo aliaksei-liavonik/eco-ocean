@@ -1,4 +1,4 @@
-name: eco_ocean_l10n
+name: eco_ocean_game
 
 environment:
   sdk: ">=3.2.4 <4.0.0"
@@ -7,8 +7,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
 
 dev_dependencies:
-  build_runner: ^2.4.8
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
