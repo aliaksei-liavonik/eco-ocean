@@ -1,12 +1,12 @@
-name: eco_ocean_entrypoint
+name: eco_ocean_app
 
 environment:
   sdk: ">=3.2.4 <4.0.0"
   flutter: "3.16.7"
 
 dependencies:
-  eco_ocean_app:
-    path: ../eco_ocean_app
+  eco_ocean_game:
+    path: ../eco_ocean_game
   flutter:
     sdk: flutter
 

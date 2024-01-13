@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class EcoOceanEntrypoint extends StatelessWidget {
-  const EcoOceanEntrypoint({super.key});
+class EOApp extends StatelessWidget {
+  const EOApp({super.key});
 
   @override
   Widget build(BuildContext context) {
