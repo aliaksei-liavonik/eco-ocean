@@ -1,0 +1,16 @@
+name: eco_ocean
+
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+  flutter: "3.16.7"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

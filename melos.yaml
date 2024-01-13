@@ -1,0 +1,22 @@
+name: eco_ocean_entrypoint
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+packages:
+  - packages/*
+
+scripts:
+  get:
+    exec: flutter pub get
+
+  analyze:
+    exec: dart analyze .
+
+  fixApply:
+    exec: dart fix --apply
+
+  format:
+    exec: dart format .
+
+  buildrun: melos exec --depends-on="build_runner" flutter pub run build_runner build --delete-conflicting-outputs
