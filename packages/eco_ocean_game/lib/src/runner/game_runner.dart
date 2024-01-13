@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class GameRunner extends StatelessWidget {
-  const GameRunner({super.key});
+class EOGameRunner extends StatelessWidget {
+  const EOGameRunner({super.key});
 
   @override
   Widget build(BuildContext context) {

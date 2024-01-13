@@ -1,1 +1,1 @@
-export 'src/game_runner/game_runner.dart';
+export 'src/runner/game_runner.dart';
