@@ -20,3 +20,6 @@ scripts:
     exec: dart format .
 
   buildrun: melos exec --depends-on="build_runner" flutter pub run build_runner build --delete-conflicting-outputs
+
+  l10n:
+    run: melos exec --scope="eco_ocean_l10n" ./generate_l10n.sh
